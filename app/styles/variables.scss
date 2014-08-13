@@ -1,0 +1,32 @@
+// Variables Overrides -----------------------------
+
+//== Typography
+//## Font, line-height, and color for body text, headings, and more.
+$font-family-sans-serif:  'Open Sans Condensed', sans-serif !default;
+
+$font-family-base:        $font-family-sans-serif !default;
+
+//== Colors
+
+$sg-brown-light:		#eeeeec;
+$sg-brown-md:			#908d81;
+$sg-brown-dk:			#908d81;
+$sg-blue-dk:			#0b8bb0;
+$sg-blue-light:			#1aa8bb;
+$main-background:       $sg-brown-light; 
+
+$brand-primary:         $sg-blue-dk !default; // dao blue
+
+//## Settings for some of the most global styles.
+
+//** Background color for `<body>`.
+$body-bg:               $main-background !default;
+//** Global text color on `<body>`.
+$text-color:            $sg-brown-md !default;
+//** Global textual link color.i
+$link-color:            $sg-blue-light !default;
+//** Link hover color set via `darken()` function.
+$link-hover-color:      darken($link-color, 15%) !default;
+
+$headings-color:          $sg-blue-light !default;
+$headings-font-weight:    300 !default;

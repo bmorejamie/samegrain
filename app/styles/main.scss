@@ -1,0 +1,156 @@
+$icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import 'variables';
+// bower:scss
+@import '../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss';
+// endbower
+
+.btn {
+    border-radius:.5em 0;
+}
+.btn-block {
+    border-radius: 0;
+    //font-size: 1.5em
+}
+.btn-brown {
+    color: #fff;
+    background-color: $sg-brown-md;
+}
+.btn-blue {
+    color: #fff;
+    background-color: $sg-blue-dk;
+}
+body {
+  //background-color: #eeeeec;
+}
+.site-header .container {
+  min-height: 85px;
+}
+.site-header {
+  background-image: url('../images/headerRepeat.jpg'); 
+  background-repeat: repeat-x;
+}
+.site-header .logo img {
+  max-width: 195px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+.content {
+  padding-top: 50px;
+  padding-bottom: 55px;
+}
+
+.header {
+    h1 {
+        margin-top: 0;
+    }
+    p {
+        line-height: 2.25em;
+        float: left;
+        margin: 0;
+    }
+    .btn {
+        margin-left: .5em;
+        float: right;
+    }
+}
+
+// Form Styling ---------------------------------------------
+.upper-part {
+  margin-bottom: 44px;
+  border-radius: 14px 0;
+  overflow: hidden;
+  background: #fff;
+  -webkit-box-shadow: inset 3px 6px 8px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 3px 6px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 3px 6px 8px rgba(0, 0, 0, 0.1);
+}
+.field-wrap {
+  margin-bottom: 18px;
+  border-radius: 14px 0;
+  overflow: hidden;
+  background: #fff;
+  -webkit-box-shadow: inset 3px 6px 8px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 3px 6px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 3px 6px 8px rgba(0, 0, 0, 0.1);
+}
+.form-control {
+  box-shadow: none;
+}
+.form-group {
+    margin: 0;
+}
+input[type="text"],
+input[type="date"],
+input[type="password"],
+input[type="email"] {
+  height: 2em;
+  color: $sg-brown-md;
+  font-size: 1.65em;
+  font-weight: 300;
+  background: none;
+  border: none;
+  border-top: 2px solid $sg-brown-light;
+  border-radius: 0;
+}
+input[type="text"]:first-child,
+input[type="date"]:first-child,
+input[type="password"]:first-child,
+input[type="email"]:first-child {
+  border-top: none;
+}
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+  border-top: 2px solid $sg-brown-light;
+  color: darken($sg-brown-dk, 10%);
+  box-shadow: none;
+}
+input[type="text"]:focus:first-child,
+input[type="date"]:focus:first-child,
+input[type="password"]:focus:first-child,
+input[type="email"]:focus:first-child {
+  border-top: none;
+}
+.form-control-feedback {
+    top: 10px;
+    right: 15px;
+}
+.form-text {
+    margin-bottom: 1em;
+}
+
+
+// Validation Return pages ---------------------------------------------
+.validations {
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+    h1, p {
+        text-align: center;
+    }
+    p {
+        font-size: 1.3em;
+        color: darken($sg-brown-dk, 15%);
+    }
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+    .site-header .container {
+        min-height: 118px;
+    }
+    .site-header .logo img {
+      max-width: 259px;
+      margin-top: 25px;
+    }
+}
