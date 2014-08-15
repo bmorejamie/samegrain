@@ -28,9 +28,13 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 }
 .glyphicon-ok {
   color: $sg-green;
+  border: 1px solid $sg-green;
+  border-radius: 50%;
 }
 .glyphicon-remove {
   color: #ff4800;
+  border: 1px solid #ff4800;
+  border-radius: 50%;
 }
 
 
@@ -132,8 +136,11 @@ input[type="email"]:focus:first-child {
   border-top: none;
 }
 .form-control-feedback {
-    top: 10px;
+    top: 12px;
     right: 15px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
 }
 .form-text {
     margin-bottom: 1em;
