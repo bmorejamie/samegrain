@@ -5,6 +5,8 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 @import '../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss';
 // endbower
 
+// Buttons & Icons ---------------------------------------------
+
 .btn {
     border-radius:.5em 0;
 }
@@ -20,6 +22,18 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
     color: #fff;
     background-color: $sg-blue-dk;
 }
+.btn-green {
+  color: #fff;
+  background-color: $sg-green;
+}
+.glyphicon-ok {
+  color: $sg-green;
+}
+.glyphicon-remove {
+  color: #ff4800;
+}
+
+
 body {
   //background-color: #eeeeec;
 }
@@ -59,6 +73,7 @@ body {
 }
 
 // Form Styling ---------------------------------------------
+
 .upper-part {
   margin-bottom: 44px;
   border-radius: 14px 0;
@@ -126,6 +141,7 @@ input[type="email"]:focus:first-child {
 
 
 // Validation Return pages ---------------------------------------------
+
 .validations {
     img {
         display: block;
